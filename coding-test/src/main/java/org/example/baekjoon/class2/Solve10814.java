@@ -23,38 +23,39 @@ public class Solve10814 {
             System.out.println(sb);
         }
     }
-}
 
-class Person implements Comparable<Person> {
-    int age;
-    String name;
-    int order;
+    static class Person implements Comparable<Person> {
+        int age;
+        String name;
+        int order;
 
-    public Person(int age, String name, int order) {
-        this.age = age;
-        this.name = name;
-        this.order = order;
-    }
-
-    @Override
-    public int compareTo(Person o) {
-        // 오름차순
-        int ageCompare = Integer.compare(this.age, o.age);
-        if (ageCompare != 0) {
-            return ageCompare;
+        public Person(int age, String name, int order) {
+            this.age = age;
+            this.name = name;
+            this.order = order;
         }
 
-        // 오름차순
-        int orderCompare = Integer.compare(this.order, o.order);
-        if (orderCompare != 0) {
-            return orderCompare;
+        @Override
+        public int compareTo(Person o) {
+            // 오름차순
+            int ageCompare = Integer.compare(this.age, o.age);
+            if (ageCompare != 0) {
+                return ageCompare;
+            }
+
+            // 오름차순
+            int orderCompare = Integer.compare(this.order, o.order);
+            if (orderCompare != 0) {
+                return orderCompare;
+            }
+
+            return 0;
         }
 
-        return 0;
-    }
-
-    @Override
-    public String toString() {
-        return age + " " + name;
+        @Override
+        public String toString() {
+            return age + " " + name;
+        }
     }
 }
+
