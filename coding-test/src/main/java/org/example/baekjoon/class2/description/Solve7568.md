@@ -1,5 +1,6 @@
-### [Baekjoon - 7568,  덩치]
-###### \#Brute Force, \#Implementation
+### 🔗 [Baekjoon - 7568,  덩치](https://github.com/shihaim/coding-test/blob/fe47249ec7e11532f79c7f698be7b6c1cf556ca4/coding-test/src/main/java/org/example/baekjoon/class2/Solve7568.java)
+###### \#Implementation, \#Brute Force
+
 문제를 이해하지 못해서 틀린 문제 아래 표를 보자.
 
 | 몸무게 | 키   |
@@ -7,11 +8,13 @@
 | 67  | 181 |
 | 66  | 181 |
 | 67  | 182 |
+
 다음과 같은 표가 나오면 덩치 순위가 `1 2 1`이 나와야한다. 하지만 나의 경우 `1 3 1`이 나왔다.   
 그 이유는 내 앞에 덩치가 큰 사람의 수(k) + 1을 해야하지만, 나의 경우 내림차순으로 정렬을 하고 덩치가 크면 k + 1하고, 아니면 k++을 진행했다.   
 문제 해석 능력이 중요하다는 것을 느낀 문제였다. 문제 좀 잘 읽자... 😥
 
 ##### 틀린 코드
+
 ```java
 import java.util.*;
 

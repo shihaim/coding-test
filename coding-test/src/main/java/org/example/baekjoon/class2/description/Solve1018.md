@@ -1,5 +1,6 @@
-### [Baekjoon - 1018,  체스판 다시 칠하기]
-###### \#Brute Force, \#Implementation
+### 🔗 [Baekjoon - 1018,  체스판 다시 칠하기](https://github.com/shihaim/coding-test/blob/fe47249ec7e11532f79c7f698be7b6c1cf556ca4/coding-test/src/main/java/org/example/baekjoon/class2/Solve1018.java)
+###### \#Brute Force
+
 완전 탐색 관련 문제라고 생각이 되어 브루트포스 관련 알고리즘을 검색해보았는데, ChatGPT의 경우 다음과 같이 알려준다.
 1. 순열 (Permutation)
 2. 조합 (Combination)
