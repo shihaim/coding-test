@@ -3,6 +3,7 @@ package org.example.programmers.level1
 /**
  * 프로그래머스
  * 2024 KAKAO WINTER INTERNSHIP
+ * 가장 많이 받은 선물
  */
 fun main() {
     val friends: Array<String> = arrayOf("muzi", "ryan", "frodo", "neo")
